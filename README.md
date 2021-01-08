@@ -4,8 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=SHANMUKH-CH&label=Profile%20views&color=0e75b6&style=flat" alt="SHANMUKH-CH" /> </p>
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4zfd5ycoehumyj4vhy30hzr1a&cover_image=true&theme=novatorem)](https://github.com/SHANMUKH-CH/spotify-github-profile)
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://discord.com/users/Slayer#0014" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" alt="Shanmukh" height="30" width="40" /></a>
