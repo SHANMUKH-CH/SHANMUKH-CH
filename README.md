@@ -3,7 +3,7 @@
 </div>  
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=SHANMUKH-CH&label=Profile%20views&color=0e75b6&style=flat" alt="SHANMUKH-CH" /> </p>
-<h1 align="Center"> I`m Currently smashing keyboard <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"></h1>
+<h1 align="Center"> I`м ¢υяяєηтℓу ѕмαѕнιηg тнє кєувσαя∂ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"></h1>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
