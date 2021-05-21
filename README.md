@@ -5,13 +5,10 @@
 </p>
 
 <div align="center">
-<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 félagi fighter width="30px"></h2>
+<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 félagi fighter</h2>
 </div>
 
----
 <i>Together, we will slátra our enemies:</i><br>
-
-
 
 <a href="https://www.linkedin.com/in/chinnam-shanmukha-sai-8397621b7/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://open.spotify.com/user/4zfd5ycoehumyj4vhy30hzr1a" target="_blank"><img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify"></a>
