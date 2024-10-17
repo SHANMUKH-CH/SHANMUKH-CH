@@ -1,185 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinnam Shanmukha Sai</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
-
-        :root {
-            --bg-color: #282828;
-            --text-color: #fbf1c7;
-            --highlight-color: #fabd2f;
-            --link-color: #83a598;
-            --border-color: #3c3836;
+    <title>Chinnam Shanmukha Sai - DevOps | Platform | Cloud Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        jetbrains: {
+                            bg: '#2b2b2b',
+                            text: '#a9b7c6',
+                            highlight: '#ffc66d',
+                            accent: '#cc7832',
+                        },
+                    },
+                },
+            },
         }
-
-        body {
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            color: var(--highlight-color);
-            margin: 0;
-            border-bottom: 2px solid var(--highlight-color);
-            padding-bottom: 10px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        .role {
-            color: var(--link-color);
-            font-weight: 600;
-        }
-
-        .summary {
-            background-color: var(--border-color);
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: var(--link-color);
-            margin-top: 20px;
-            border-bottom: 1px solid var(--link-color);
-            padding-bottom: 5px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        th {
-            background-color: var(--border-color);
-            color: var(--highlight-color);
-            font-weight: 600;
-        }
-
-        ul {
-            padding-left: 20px;
-            margin: 10px 0;
-        }
-
-        a {
-            color: var(--link-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            color: var(--text-color);
-        }
-
-        .social-links i {
-            font-size: 1.5em;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </script>
 </head>
+<body class="bg-jetbrains-bg text-jetbrains-text font-mono">
+    <div class="container mx-auto p-8 max-w-4xl">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-jetbrains-highlight mb-2">Chinnam Shanmukha Sai</h1>
+            <p class="text-xl text-jetbrains-accent">DevOps | Platform | Cloud Engineer</p>
+        </header>
 
-<body>
-    <h1>Chinnam Shanmukha Sai</h1>
-    <p class="role">Software Engineer 2 at <a href="https://www.netwitness.com/">NetWitness</a></p>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Profile Summary</h2>
+            <p class="leading-relaxed">
+                Passionate DevOps professional with nearly 3 years of experience in Cloud Computing, Containerization, CI/CD Pipelines, and Configuration Management. Proficient in leveraging advanced DevOps tools and technologies to streamline development processes and enhance operational efficiency. Adept at designing scalable and secure cloud infrastructure solutions to drive business growth and success. Strong analytical and problem-solving skills with a keen eye for detail and a commitment to excellence.
+            </p>
+        </section>
 
-    <div class="summary">
-        <p>Passionate DevOps Professional with 3+ yoe in cloud computing. Deeply knowledgeable in configuration management, continuous integration/deployment, & cloud migration strategies. I excel in designing & integrating robust CI/CD pipelines & DevOps tool stacks, ensuring high-quality, scalable solutions. A proactive collaborator, I thrive in fast-paced environments, driving innovation & efficiency across cross-functional teams.</p>
-    </div>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Core Competencies</h2>
+            <ul class="grid grid-cols-2 gap-4">
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Cloud Computing</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>DevOps Engineering</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>CI/CD Pipeline Management</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Configuration Management</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Infrastructure Provisioning with Terraform</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Scalability Planning</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Disaster Recovery</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Incident Response</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Performance Optimization</li>
+                <li><i class="fas fa-check-circle text-jetbrains-accent mr-2"></i>Business Continuity</li>
+            </ul>
+        </section>
 
-    <h2>🛠️ Skills Matrix</h2>
-    <table>
-        <tr>
-            <th>Category</th>
-            <th>Skills</th>
-        </tr>
-        <tr>
-            <td>👨‍💻 Programming</td>
-            <td>Python, Bash, Groovy</td>
-        </tr>
-        <tr>
-            <td>🗄️ IaC</td>
-            <td>Terraform, Ansible, Packer, Chef, SaltStack</td>
-        </tr>
-        <tr>
-            <td>☁️ Cloud</td>
-            <td>AWS, GCP, Azure, VMware Cloud Director, OpenStack</td>
-        </tr>
-        <tr>
-            <td>📦 Containers & Orchestration</td>
-            <td>Docker, Kubernetes</td>
-        </tr>
-        <tr>
-            <td>⚙️ CI/CD</td>
-            <td>Jenkins, GitHub Actions, Gitlab</td>
-        </tr>
-        <tr>
-            <td>🔍 Monitoring</td>
-            <td>ELK Stack</td>
-        </tr>
-        <tr>
-            <td>🖥️ OS</td>
-            <td>Linux, Windows</td>
-        </tr>
-        <tr>
-            <td>🔗 Version Control</td>
-            <td>Git, GitHub, Gitlab</td>
-        </tr>
-    </table>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Technical Skills</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">Scripting:</h3>
+                    <p>Python, Groovy, Shell, Ruby</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">VCS:</h3>
+                    <p>Git, GitHub, Gitlab</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">Containerization:</h3>
+                    <p>Docker, Kubernetes, EKS, GKE, AKS</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">Automation:</h3>
+                    <p>Jenkins, GitHub Actions, Gitlab</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">Cloud:</h3>
+                    <p>AWS, Azure, GCP, VMware VCD, OpenStack</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">OS:</h3>
+                    <p>Linux (CentOS, Alma, Ubuntu)</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">Configuration Management:</h3>
+                    <p>Ansible, SaltStack</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-jetbrains-accent">HashiCorp Tools:</h3>
+                    <p>Packer, Terraform, Consul</p>
+                </div>
+            </div>
+        </section>
 
-    <h2>Projects & Achievements</h2>
-    <ul>
-        <li><strong>Open Source:</strong> rustic-wisdom, dev_image, url_shortener</li>
-        <li><a href="https://github.com/SHANMUKH-CH">GitHub Profile</a></li>
-        <li>NetWitness - Spot Award, Dec 2023</li>
-        <li>NetWitness - Excellence Award, Mar 2023</li>
-        <li><a href="https://ieeexplore.ieee.org/document/10039703">IEEE Publication</a></li>
-    </ul>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Work Experience</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold text-jetbrains-accent">NetWitness, Remote</h3>
+                <p class="italic">Jul 2021 - Present</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Software Engineer 2 (DevOps & Platform Engineer) since Sep 2023</li>
+                    <li>Software Engineer 1 (Jul 2022 - Sep 2023)</li>
+                    <li>Graduate Intern (Jul 2021 - Jul 2022)</li>
+                </ul>
+                <p class="mt-2">Key Responsibilities:</p>
+                <ul class="list-disc list-inside ml-4">
+                    <li>Automate, configure, and deploy instances on Multi-Cloud environments</li>
+                    <li>Manage CI/CD processes using Jenkins, Python, Ruby, and Shell scripts</li>
+                    <li>Develop and maintain Terraform modules for infrastructure automation</li>
+                    <li>Implement security measures like ClamAV within build pipelines</li>
+                    <li>Perform container-based deployments with Docker and manage Git repositories</li>
+                    <li>Create and manage Multi-Cloud build pipeline infrastructure</li>
+                    <li>Implement monitoring solutions using ELK stack</li>
+                </ul>
+            </div>
+        </section>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Amrita Vishwa Vidyapeetham</strong> - MTech, Cyber Security (9.0/10)</li>
-        <li><strong>Nagarjuna College Of Engineering</strong> - BE, Computer Science (7.9/10)</li>
-        <li><strong>Sri Chaitanya College</strong> - Intermediate, MPC (931/1000)</li>
-        <li><strong>Nirmala English Medium High School</strong> - SSC (9/10)</li>
-    </ul>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Education</h2>
+            <ul class="space-y-4">
+                <li>
+                    <h3 class="font-semibold text-jetbrains-accent">M.Tech. Cyber Security & Networks</h3>
+                    <p>Amrita Vishwa Vidhyapeetham, Kerala (2020-2022)</p>
+                </li>
+                <li>
+                    <h3 class="font-semibold text-jetbrains-accent">B.E. Computer Science</h3>
+                    <p>Nagarjuna College of Engineering, Bangalore (2015-2019)</p>
+                </li>
+            </ul>
+        </section>
 
-    <h2>Contact</h2>
-    <div class="social-links">
-        <a href="https://discord.com/users/slayer_terrorblade"><i class="fab fa-discord"></i></a>
-        <a href="mailto:shanmukh02.ch@gmail.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/chinnam-shanmukha-sai/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://x.com/ssaic02"><i class="fab fa-twitter"></i></a>
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Certifications & Achievements</h2>
+            <ul class="list-disc list-inside">
+                <li>Jenkins: Essentials issued by CloudBees Inc. (Sep 2021)</li>
+                <li>Excellence Award (March 2023)</li>
+                <li>Spot Award (December 2023)</li>
+                <li>IEEE Publication: <a href="https://ieeexplore.ieee.org/document/10039703" class="text-jetbrains-accent hover:underline">View Publication</a></li>
+            </ul>
+        </section>
+
+        <section class="bg-jetbrains-bg border border-jetbrains-text rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-jetbrains-highlight mb-4">Contact Information</h2>
+            <ul class="space-y-2">
+                <li><i class="fas fa-envelope mr-2 text-jetbrains-accent"></i> <a href="mailto:shanmukh02.ch@gmail.com" class="hover:underline">shanmukh02.ch@gmail.com</a></li>
+                <li><i class="fab fa-linkedin mr-2 text-jetbrains-accent"></i> <a href="https://www.linkedin.com/in/chinnam-shanmukha-sai/" class="hover:underline">chinnam-shanmukha-sai</a></li>
+                <li><i class="fab fa-github mr-2 text-jetbrains-accent"></i> <a href="https://github.com/shanmukh-ch" class="hover:underline">shanmukh-ch</a></li>
+            </ul>
+        </section>
     </div>
 </body>
-
 </html>
